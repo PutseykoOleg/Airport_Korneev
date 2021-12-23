@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Airport_Korneev
+namespace MyLibrary
 {
     /**
      * Класс, представляющий обработчик таймера

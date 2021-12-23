@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Airport_Korneev
+namespace MyLibrary
 {
     // Интерфейс, описывающий объект, предоставляющий некоторую информацию, связанную с самолетом
     public interface IInformable

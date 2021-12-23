@@ -1,4 +1,4 @@
-﻿namespace Airport_Korneev
+﻿namespace MyLibrary
 {
     /**
      * Абстрактный класс, описывающий некоторый самолет

@@ -1,5 +1,5 @@
 ﻿
-namespace Airport_Korneev
+namespace Flight_Schedule_App
 {
     partial class Form1
     {

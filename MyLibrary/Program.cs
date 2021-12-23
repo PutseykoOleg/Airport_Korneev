@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Flight_Schedule_App
+namespace MyLibrary
 {
     static class Program
     {

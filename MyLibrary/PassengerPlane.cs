@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Airport_Korneev
+namespace MyLibrary
 {
     // Класс, описывающий пассажирский самолет
     public class PassengerPlane: Airplane

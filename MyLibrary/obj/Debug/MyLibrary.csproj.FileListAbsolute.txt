@@ -1,0 +1,8 @@
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\bin\Debug\MyLibrary.exe.config
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\bin\Debug\MyLibrary.exe
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\bin\Debug\MyLibrary.pdb
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\obj\Debug\MyLibrary.Properties.Resources.resources
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\obj\Debug\MyLibrary.csproj.GenerateResource.cache
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\obj\Debug\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\obj\Debug\MyLibrary.exe
+C:\Users\olego\source\repos\Airport_Korneev\MyLibrary\obj\Debug\MyLibrary.pdb

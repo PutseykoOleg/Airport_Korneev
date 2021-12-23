@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Airport_Korneev
+namespace MyLibrary
 {
     // Класс, описывающий рейс
     public struct Flight

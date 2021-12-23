@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyLibrary;
 
-namespace Airport_Korneev
+namespace Flight_Schedule_App
 {
 
     public partial class Form1 : Form

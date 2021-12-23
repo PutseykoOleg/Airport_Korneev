@@ -1,4 +1,4 @@
-﻿namespace Airport_Korneev
+﻿namespace MyLibrary
 {
     // Перечисление статусов полета пассажирского самолета
     public enum FlightStatus

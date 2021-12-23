@@ -1,4 +1,4 @@
-﻿namespace Airport_Korneev
+﻿namespace MyLibrary
 {
     // Структура, описывающая маршрут
     public struct Route

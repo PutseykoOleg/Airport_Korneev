@@ -8,3 +8,7 @@ C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\obj\Debug\Airport_Ko
 C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\obj\Debug\Airport_Korneev.exe
 C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\obj\Debug\Airport_Korneev.pdb
 C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\obj\Debug\Airport_Korneev.Form1.resources
+C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\bin\Debug\MyLibrary.exe
+C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\bin\Debug\MyLibrary.pdb
+C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\bin\Debug\MyLibrary.exe.config
+C:\Users\olego\source\repos\Airport_Korneev\Airport_Korneev\obj\Debug\Airport_Korneev.csproj.CopyComplete
