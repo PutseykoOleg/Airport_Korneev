@@ -11,6 +11,7 @@ namespace MyLibrary
     public static class TimerHandler
     {
         // Обрабатываемый таймер с периодичностью вызова 100 миллисекунд
+        // Отношение композиции (Timer -> TimeHandler)
         private static Timer _timer = new Timer { Interval = 100 };
 
         /**

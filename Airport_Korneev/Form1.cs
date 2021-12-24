@@ -18,6 +18,7 @@ namespace Flight_Schedule_App
         public const int COUNT_OF_AIRPLANES = 10;
 
         // Аэропорт
+        // Отношение композиции - (Airport -> Form1)
         public Airport airport = new Airport();
 
         public Form1()
@@ -76,14 +77,16 @@ namespace Flight_Schedule_App
             for (int i = 0; i < COUNT_OF_AIRPLANES; i++)
             {
                 // Добавить в список новый самолет
-                airport.airplanes.Add(new PassengerPlane(
+                PassengerPlane airplane = new PassengerPlane(
                     // Определение авиакомпании с вероятностью 50%
                     airlineName: rand.Next(0, 100) < 50 ? "Аэрофлот" : "Россия",
                     // Рейс
+                    // Отношение композиции (Flight -> PassengerPlane)
                     flight: new Flight(
                         // Номер рейса находится в пределах от 1000 до 9999
                         number: rand.Next(1000, 10000),
                         // Маршрут
+                        // Отношение композиции (Route -> Flight)
                         route: new Route(
                             // Рандомный начальная точка
                             from: routesFrom[rand.Next(0, routesFrom.Count)], 
@@ -97,8 +100,11 @@ namespace Flight_Schedule_App
                         // Время в полете 1-8 полных часов и 0-1 неполный (минуты)
                         travelTime: rand.Next(1, 9) + rand.NextDouble()
                     )
-                ));
+                );
 
+                // Добавить созданный самолет в список
+                // Отношение агрегации (PassengerPlane -> Airplane)
+                airport.airplanes.Add(airplane);
                 // Добавить информацию о самолете в таблицу
                 AddAirplaneToTable(airport.airplanes[airport.airplanes.Count - 1]);
             }
